@@ -1,3 +1,4 @@
+
 respostas = []
 
 respostas.append(input(f"\nDigite seu nome:"))
