@@ -14,3 +14,7 @@ lista_teste.sort(reverse=True)
 
 print(lista_teste)
 
+#metodo copy() cria uma copia
+lista_nova = lista_teste.copy()
+
+print(lista_nova)
