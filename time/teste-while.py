@@ -10,11 +10,11 @@ if inicio <= fim:
     while inicio <= fim:
         print(inicio)
         sleep(1)
-        inicio = inicio + intervalo
+        inicio += intervalo
     print("FIM!")
 elif inicio >= fim:
     while inicio >= fim:
         print(inicio)
         sleep(1)
-        inicio = inicio - intervalo
+        inicio -= intervalo
     print("FIM!")
